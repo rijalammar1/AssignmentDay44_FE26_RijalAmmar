@@ -1,5 +1,6 @@
 import api from './api'
 import type { Product, ProductPayload } from '../types/product'
+import type { PaginatedResponse } from '../types/api'
 
 const ENDPOINT = '/products'
 
@@ -9,12 +10,20 @@ export const productService = {
     return data
   },
 
+  /**
+   * Returns the `limit` most recently added products.
+   *
+   * json-server v1 deprecated `_limit` in favour of `_page` / `_per_page`.
+   * Using the new pagination params also changes the response shape from a
+   * plain array to `{ data: Product[], first, prev, next, last, pages, items }`.
+   * `_sort=-id` ensures the newest products are always included.
+   */
   getFeatured: async (limit = 6, signal?: AbortSignal): Promise<Product[]> => {
-    const { data } = await api.get<Product[]>(ENDPOINT, {
-      params: { _limit: limit },
+    const { data } = await api.get<PaginatedResponse<Product>>(ENDPOINT, {
+      params: { _page: 1, _per_page: limit, _sort: '-id' },
       signal,
     })
-    return data
+    return data.data
   },
 
   getById: async (id: string, signal?: AbortSignal): Promise<Product> => {
