@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Kaos Polo Premium",
+      "category": "Kaos",
+      "description": "Kaos polo berbahan cotton combed 30s dengan jahitan rapi dan tahan lama. Cocok untuk seragam kantor dan acara formal.",
+      "price": 85000,
+      "image": "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?w=600&h=600&fit=crop",
+      "stock": 120
+    },
+    {
+      "id": "2",
+      "name": "Kemeja Batik Modern",
+      "category": "Kemeja",
+      "description": "Kemeja batik dengan motif kontemporer, bahan katun premium yang adem dan nyaman dipakai seharian.",
+      "price": 175000,
+      "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&h=600&fit=crop",
+      "stock": 85
+    },
+    {
+      "id": "3",
+      "name": "Jaket Bomber Custom",
+      "category": "Jaket",
+      "description": "Jaket bomber dengan desain custom, bahan parasut berkualitas tinggi dan lining nyaman untuk cuaca dingin.",
+      "price": 225000,
+      "image": "https://images.unsplash.com/photo-1551028710-00167b16eac5?w=600&h=600&fit=crop",
+      "stock": 45
+    },
+    {
+      "id": "4",
+      "name": "Hoodie Oversize",
+      "category": "Hoodie",
+      "description": "Hoodie oversize dengan bahan fleece tebal, desain minimalis dan cocok untuk streetwear brand Anda.",
+      "price": 195000,
+      "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=600&fit=crop",
+      "stock": 60
+    },
+    {
+      "id": "5",
+      "name": "Seragam Olahraga",
+      "category": "Seragam",
+      "description": "Set seragam olahraga dry-fit dengan teknologi quick dry, ringan dan fleksibel untuk aktivitas intens.",
+      "price": 145000,
+      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=600&fit=crop",
+      "stock": 200
+    },
+    {
+      "id": "6",
+      "name": "Topi Trucker Custom",
+      "category": "Aksesoris",
+      "description": "Topi trucker dengan panel depan untuk bordir atau sablon logo brand. Adjustable strap di belakang.",
+      "price": 55000,
+      "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=600&h=600&fit=crop",
+      "stock": 150
+    },
+    {
+      "id": "7",
+      "name": "Celana Chino Slim Fit",
+      "category": "Celana",
+      "description": "Celana chino slim fit dengan bahan stretch nyaman, tersedia berbagai warna untuk kebutuhan seragam.",
+      "price": 165000,
+      "image": "https://images.unsplash.com/photo-1473966968600-fa801b279a0a?w=600&h=600&fit=crop",
+      "stock": 75
+    },
+    {
+      "id": "8",
+      "name": "Dress Uniform Wanita",
+      "category": "Seragam",
+      "description": "Dress seragam wanita elegan dengan potongan modern, bahan premium dan jahitan presisi untuk tampilan profesional.",
+      "price": 210000,
+      "image": "https://images.unsplash.com/photo-1595777457583-95e059581991?w=600&h=600&fit=crop",
+      "stock": 40
+    }
+  ]
+}
